@@ -1,5 +1,3 @@
-# Resumen Completo: "Strings, Input/Output, y Branching" en Python
-
 ## 1. Strings (Cadenas de texto)
 
 ### Concepto básico

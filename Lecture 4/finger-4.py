@@ -1,6 +1,6 @@
 # Finger Exercises Lecture 4
 # Name: Matias Ezequiel Petenatti
-# Time Spent: 
+# Time Spent: 0:15
 
 # Assume you are given a positive integer variable named N. 
 # Write a piece of Python code that finds the cube root of N. 

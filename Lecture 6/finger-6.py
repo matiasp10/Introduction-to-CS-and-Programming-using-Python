@@ -1,3 +1,7 @@
+# Finger Exercises Lecture 6
+# Name: Matias Ezequiel Petenatti
+# Time Spent: 0:15
+
 # Assume you are given an integer 0 \<= N \\<= 1000. 
 # Write a piece of Python code that uses bisection search to guess N. 
 # The code prints two lines: count: with how many guesses it took to find N, and answer: with the value of N. 

@@ -1,12 +1,17 @@
+# Finger Exercises Lecture 7
+# Name: Matias Ezequiel Petenatti
+# Time Spent: 0:15
+
 # Question 1: Implement the function that meets the specifications below:
 
 def eval_quadratic(a, b, c, x):
     """
     a, b, c: numerical values for the coefficients of a quadratic equation
     x: numerical value at which to evaluate the quadratic.
-    Returns the value of the quadratic a×x² + b×x + c.
+    Returns the value of the quadratic a * x² + b * x + c.
     """
-    # Your code here
+    
+    return a * x**2 + b * x + c
 
 # Examples:    
 print(eval_quadratic(1, 1, 1, 1)) # prints 3
@@ -22,7 +27,8 @@ def two_quadratics(a1, b1, c1, x1, a2, b2, c2, x2):
     Evaluates another quadratic with coefficients a2, b2, c2, at x2.
     Prints the sum of the two evaluations. Does not return anything.
     """
-    # Your code here
+    
+    print(eval_quadratic(a1, b1, c1, x1) + eval_quadratic(a2, b2, c2, x2))
 
 # Examples:    
 two_quadratics(1, 1, 1, 1, 1, 1, 1, 1) # prints 6

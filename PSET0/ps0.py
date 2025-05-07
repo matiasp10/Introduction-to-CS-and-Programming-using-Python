@@ -4,12 +4,8 @@
 
 import numpy
 
-x = 5
+x = int(input("Enter number x: "))
+y = int(input("Enter number y: "))
 
-y = 8
-
-z = x + y
-
-a = numpy.log2(z)
-
-print(a)
+print(x**y)
+print(numpy.log2(x))

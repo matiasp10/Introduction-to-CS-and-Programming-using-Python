@@ -1,3 +1,7 @@
+# Finger Exercises Lecture 11
+# Name: Matias Ezequiel Petenatti
+# Time Spent: 0:15
+
 def remove_and_sort(Lin, k):
     """ Lin is a list of ints
         k is an int >= 0

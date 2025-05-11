@@ -1,4 +1,4 @@
-# Finger Exercises Lecture 9
+# Finger Exercises Lecture 10
 # Name: Matias Ezequiel Petenatti
 # Time Spent: 0:15
 

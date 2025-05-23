@@ -143,5 +143,28 @@ River manda, Pero no en el Monumental!
 
 Observe que se han pasado dos valores a ``{python}print`` en la tercera sentencia. La función ``{python}print`` toma un número variable de argumentos separados por comas y los imprime, separados por un carácter de espacio, en el orden en que aparecen.
 
+_____
 
+# Términos
+
+- **Conocimiento declarativo**: Tipo de conocimiento que describe **qué** se quiere lograr sin especificar **cómo** hacerlo. Se enfoca en los hechos, reglas o relaciones.  Ej.: Consultas en SQL, lógica proposicional.
+- **Conocimiento imperativo**: Describe **cómo** lograr algo paso a paso. Es procedimental, indica instrucciones explícitas para alcanzar un objetivo.  Ej.: Programación en C, Python.
+- **Algoritmo**: Conjunto finito y ordenado de pasos o instrucciones que resuelven un problema o realizan una tarea. Debe ser preciso, finito y efectivo.
+- **Computación**: Proceso de realizar cálculos o resolver problemas mediante algoritmos, ya sea de forma manual, mecánica o automática (computadoras).
+- **Computadoras de programas fijos**: Computadoras cuyo comportamiento está definido por **circuitos físicos**. No se pueden reprogramar fácilmente.  Ej.: Calculadoras básicas, dispositivos electrónicos específicos.
+- **Computadoras de programas almacenados**: Computadoras que pueden **almacenar instrucciones (programas)** en su memoria, permitiendo cambiar el comportamiento sin modificar el hardware.  Ej.: Todas las computadoras modernas (modelo de von Neumann).
+- **Interprete**: Programa que **ejecuta código fuente línea por línea**, sin necesidad de compilarlo previamente.  Ej.: Intérprete de Python.
+- **Contador de programa**: Registro de la CPU que contiene la dirección de memoria de la **siguiente instrucción a ejecutar**.
+- **Flujo de control**: Orden en que se ejecutan las instrucciones en un programa. Puede ser secuencial, condicional (if), repetitivo (while/for), o por funciones/llamadas.
+- **Diagrama de flujo**: Representación gráfica del flujo de control de un algoritmo o programa, usando símbolos estandarizados (óvalos, flechas, rombos, etc.).
+- **Lenguaje de programación**: Lenguaje formal diseñado para **describir algoritmos y estructuras de datos**, que puede ser entendido y ejecutado por una computadora.
+- **Maquina de Turing universal**: Modelo teórico de computación que puede **simular cualquier otra máquina de Turing**, es decir, puede ejecutar cualquier algoritmo describible.
+- **Tesis Church-Turing**: Hipótesis que establece que **todo problema que puede resolverse mediante un procedimiento efectivo (algoritmo)** puede resolverse con una máquina de Turing.
+- **Problema de detención**: Problema que consiste en determinar, dado un programa y una entrada, **si el programa terminará o se ejecutará para siempre**. Se ha demostrado que **no es resoluble** por ningún algoritmo general.
+- **Completitud de Turing**: Propiedad de un lenguaje de programación o sistema computacional que indica que puede **simular cualquier máquina de Turing**, y por tanto, puede realizar cualquier cálculo computable.
+- **Literales**: Valores constantes **escritos directamente** en el código fuente. Ej.: `5`, `3.14`, `'hola'`, `True`.
+- **Operadores infijos**: Operadores que se colocan **entre dos operandos**.  Ej.: `a + b`, `x * y`.
+- **Sintaxis**: Conjunto de reglas que define **cómo deben escribirse correctamente las expresiones** en un lenguaje de programación.
+- **Semántica estática**: Propiedades del programa que se pueden verificar **en tiempo de compilación** sin ejecutarlo.  Ej.: Tipado, declaraciones previas, alcances.
+- **Semántica**: Significado de los elementos del lenguaje. Describe **qué efecto produce la ejecución de una instrucción o programa**.
 

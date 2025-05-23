@@ -21,7 +21,7 @@ Consideremos la búsqueda de la raíz cuadrada de $25$.
 5. Fijamos $g$ en $(5,67 + 25/5,67)/2 = 5,04$.
 6. Decidimos que $5,04*5,04 = 25,4$ es suficientemente próximo, así que nos detenemos y declaramos que $5,04$ es una aproximación adecuada a la raíz cuadrada de $25$.
 
-> [!NOTE] Algoritmo
+> [!NOTE]
 > Observe que la descripción del método es una _secuencia de pasos simples_, junto con un _flujo de control_ que especifica cuándo ejecutar cada paso. Una descripción de este tipo se denomina **algoritmo**. 
 > El algoritmo que utilizamos para aproximar la raíz cuadrada es un ejemplo de algoritmo "**guess-and-check**" (conjetura y comprobación). Se basa en el hecho de que es fácil comprobar si una conjetura es suficientemente buena o no.
 
@@ -81,8 +81,8 @@ Si un programa no tiene errores sintácticos ni errores semánticos estáticos, 
 
 Cada uno de estos resultados es malo, pero el último es sin duda el peor. Cuando un programa parece estar haciendo lo correcto pero no lo está haciendo, pueden ocurrir cosas malas: se pueden perder fortunas, los pacientes pueden recibir dosis mortales de radioterapia, los aviones pueden estrellarse.
 
-> [!NOTE] Ejercicio manual
-Los ordenadores pueden ser muy literales. Si no les dices exactamente lo que quieres que hagan, es probable que se equivoquen. Intenta escribir un algoritmo para conducir entre dos destinos. Escríbelo como lo harías para una persona e imagina qué pasaría si esa persona fuera tan estúpida como un ordenador y ejecutara el algoritmo exactamente como está escrito. (Para una divertida ilustración de esto, echa un vistazo al vídeo https://www.youtube.com/watch?v=FN2RM-CHkuI&t=24s.)
+> [!NOTE]
+> Los ordenadores pueden ser muy literales. Si no les dices exactamente lo que quieres que hagan, es probable que se equivoquen. Intenta escribir un algoritmo para conducir entre dos destinos. Escríbelo como lo harías para una persona e imagina qué pasaría si esa persona fuera tan estúpida como un ordenador y ejecutara el algoritmo exactamente como está escrito. (Para una divertida ilustración de esto, echa un vistazo al vídeo https://www.youtube.com/watch?v=FN2RM-CHkuI&t=24s.)
 
 # Introducción a Python
 
@@ -100,7 +100,7 @@ Esto se refiere a si las operaciones primitivas del lenguaje de programación so
 
 Esto se refiere a si la secuencia de instrucciones escrita por el programador, llamada **código fuente**, se ejecuta _directamente_ (mediante un **intérprete**) o si primero se _convierte_ (mediante un **compilador**) en una secuencia de operaciones primitivas a nivel de máquina. 
 
->[!NOTE] Nota
+>[!NOTE]
 > En los primeros tiempos de los ordenadores, la gente tenía que escribir el código fuente en un lenguaje cercano al código máquina que pudiera ser interpretado directamente por el hardware del ordenador
 
 Ambos enfoques tienen sus ventajas. A menudo es más fácil depurar programas escritos en lenguajes diseñados para ser interpretados, porque el intérprete puede producir mensajes de error fáciles de relacionar con el código fuente. Los lenguajes compilados suelen producir programas que se ejecutan más rápidamente y ocupan menos espacio.

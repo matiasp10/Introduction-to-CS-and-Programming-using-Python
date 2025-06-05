@@ -6,9 +6,6 @@
 # Write a piece of Python code that prints out a new string containing the even indexed characters of my_str. 
 # For example, if my_str = "abcdefg" then your code should print out aceg.
 
-my_str = "abcdefg"
-
-evenChars = ''
-for i in range(0,len(my_str),2):
-    evenChars += my_str[i]
-print(evenChars)
+mi_cadena = input("Ingrese un texto para devolver solo las cadenas pares:")
+nueva_cadena = mi_cadena[::2]
+print(nueva_cadena)

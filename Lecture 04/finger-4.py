@@ -7,12 +7,16 @@
 # The code prints the cube root if N is a perfect cube or it prints error if N is not a perfect cube. 
 # Hint: use a loop that increments a counter—you decide when the counter should stop.
 
-N = 27
+N = int(input("Ingrese un número entero positivo: "))
+encontrado = False
+x = 0
 
-cube = 0
-while cube**3 < N:
-    cube += 1
-if cube**3 == N:
-    print(cube)
-else:
-    print("error")
+while x ** 3 <= N:
+    if x ** 3 == N:
+        print(f"La raíz cúbica de {N} es {x}")
+        encontrado = True
+        break
+    x += 1
+
+if not encontrado:
+    print(f"{N} no es un cubo perfecto.")

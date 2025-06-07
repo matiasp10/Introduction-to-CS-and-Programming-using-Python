@@ -13,30 +13,30 @@ El repositorio está organizado en dos secciones principales:
 
 ## 📖 Lecturas
 
-| Lectura    | Enlace              |
-| ---------- | ------------------- |
-| Lectura 1  | [📂]("./Lecture 01") |
-| Lectura 2  | [📂](./Lecture 02)   |
-| Lectura 3  | [📂](./Lecture 03)   |
-| Lectura 4  | [📂](./Lecture 04)   |
-| Lectura 5  | [📂](./Lecture 05)   |
-| Lectura 6  | [📂](./Lecture 06)   |
-| Lectura 7  | [📂](./Lecture 07)   |
-| Lectura 8  | [📂](./Lecture 08)   |
-| Lectura 9  | [📂](./Lecture 09)   |
-| Lectura 10 | [📂](./Lecture 10)   |
-| Lectura 11 | [📂](./Lecture 11)   |
-| Lectura 12 | [📂](./Lecture 12)   |
-| Lectura 13 | [📂](./Lecture 13)   |
-| Lectura 14 | [📂]()               |
-| Lectura 15 | [📂]()               |
-| Lectura 16 | [📂]()               |
-| Lectura 17 | [📂]()               |
-| Lectura 18 | [📂]()               |
-| Lectura 19 | [📂]()               |
-| Lectura 20 | [📂]()               |
-| Lectura 21 | [📂]()               |
-| Lectura 22 | [📂]()               |
+| Lectura    | Enlace            |
+| ---------- | ----------------- |
+| Lectura 1  | [📂](./Lecture-01) |
+| Lectura 2  | [📂](./Lecture-02) |
+| Lectura 3  | [📂](./Lecture-03) |
+| Lectura 4  | [📂](./Lecture-04) |
+| Lectura 5  | [📂](./Lecture-05) |
+| Lectura 6  | [📂](./Lecture-06) |
+| Lectura 7  | [📂](./Lecture-07) |
+| Lectura 8  | [📂](./Lecture-08) |
+| Lectura 9  | [📂](./Lecture-09) |
+| Lectura 10 | [📂](./Lecture-10) |
+| Lectura 11 | [📂](./Lecture-11) |
+| Lectura 12 | [📂](./Lecture-12) |
+| Lectura 13 | [📂](./Lecture-13) |
+| Lectura 14 | [📂]()             |
+| Lectura 15 | [📂]()             |
+| Lectura 16 | [📂]()             |
+| Lectura 17 | [📂]()             |
+| Lectura 18 | [📂]()             |
+| Lectura 19 | [📂]()             |
+| Lectura 20 | [📂]()             |
+| Lectura 21 | [📂]()             |
+| Lectura 22 | [📂]()             |
 
 ---
 

@@ -2,6 +2,8 @@
 
 Este proyecto es una recopilación de ejercicios, lecturas y pruebas desarrolladas durante el curso **"Introduction to Computer Science and Programming using Python"** (basado en el curso del MIT). Tiene como objetivo documentar mi avance, aplicar conceptos clave de programación en Python y servir como referencia para futuros repasos.
 
+[Link del curso](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/)
+
 ## 📚 Estructura del proyecto
 
 El repositorio está organizado en dos secciones principales:
@@ -28,7 +30,7 @@ El repositorio está organizado en dos secciones principales:
 | Lectura 11 | [📂](./Lecture-11) |
 | Lectura 12 | [📂](./Lecture-12) |
 | Lectura 13 | [📂](./Lecture-13) |
-| Lectura 14 | [📂]()             |
+| Lectura 14 | [📂](./Lecture-14) |
 | Lectura 15 | [📂]()             |
 | Lectura 16 | [📂]()             |
 | Lectura 17 | [📂]()             |
@@ -46,7 +48,7 @@ El repositorio está organizado en dos secciones principales:
 | -------- | ------------ |
 | Prueba 0 | [📂](./PEST0) |
 | Prueba 1 | [📂](./PSET1) |
-| Prueba 2 | [📂]()        |
+| Prueba 2 | [📂](./PSET2) |
 | Prueba 3 | [📂]()        |
 | Prueba 4 | [📂]()        |
 | Prueba 5 | [📂]()        |
@@ -57,5 +59,7 @@ El repositorio está organizado en dos secciones principales:
 ## 🚀 Cómo usar este repositorio
 
 1. Cloná el repositorio:
+   
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repo.git
+   ```

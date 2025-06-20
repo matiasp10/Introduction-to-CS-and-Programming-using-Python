@@ -13,10 +13,10 @@ def dot_product(tA, tB):
     * first element is the length of one of the tuples
     * second element is the sum of the pairwise products of tA and tB
     """
-    sum = 0
-    for element in range(len(tA)):
-        sum += tA[element] * tB[element]
-    return (len(tA), sum)
+    product_sum = 0
+    for i in range(len(tA)):
+        product_sum += tA[i] * tB[i]
+    return (len(tA), product_sum)
 
 # Examples:
 tA = (1, 2, 3)

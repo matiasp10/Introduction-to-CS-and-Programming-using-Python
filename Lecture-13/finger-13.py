@@ -12,11 +12,18 @@ def sum_str_lengths(L):
     element that is not a string or a list, or L's sublists 
     contain an element that is not a string, raise a ValueError.
     """
-    result = 0
-    result = result + len(L[0])
-    for elements in L[1]:
-        result = result + len(elements)
-    return result
+    length = 0
+    for elem in L:
+        if isinstance(elem, list):
+            for subelem in elem:
+                if not isinstance(subelem, str):
+                    raise ValueError("Subelement is not a string")
+                length += len(subelem)
+        elif not isinstance(elem, str):
+            raise ValueError("Element is not a string or a list")
+        else:
+            length += len(elem)
+    return length
 
 # Examples:
 print(sum_str_lengths(["abcd", ["e", "fg"]]))  # prints 7

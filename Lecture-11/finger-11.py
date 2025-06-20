@@ -11,9 +11,9 @@ def remove_and_sort(Lin, k):
     Does not return anything.
     """
     if len(Lin) < k:
-        return []
-    for i in range(k):
-        Lin.pop(0)
+        Lin.clear()  # vacía la lista si no hay suficientes elementos
+    else:
+        del Lin[:k]  # elimina los primeros k elementos
     Lin.sort()
 
 # Examples:

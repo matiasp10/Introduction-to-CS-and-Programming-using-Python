@@ -1,5 +1,5 @@
 # Problem Set 4B
-# Name:
+# Name: Matias Petenatti
 # Collaborators:
 
 import random
